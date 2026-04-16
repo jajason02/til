@@ -7,17 +7,19 @@
 
 ## Stats
 
-| 항목 | 값 |
+| | |
 |:---|:---|
-| 총 기록 수 | **27개** |
-| 카테고리 수 | **3개** |
-| 최근 작성 | **2025-04-16** |
+| Total | **27** |
+| Categories | **3** |
+| Last updated | **2025-04-16** |
 
 ---
 
-## [AI / ML](https://github.com/jajason02/til/tree/main/ai) &nbsp; <sub>13개</sub>
+[AI / ML](#ai-ml) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 9 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
-| 제목 | 날짜 |
+## AI / ML &nbsp; <sub>13 notes</sub>
+
+| Title | Date |
 |:---|:---|
 | [RNN / LSTM / Transformer / BERT](ai/rnn-lstm-transformer-bert.md) | 2025-04-16 |
 | [100% 정수 연산 양자화 / TTA / 적응적 센싱](ai/quantization-integer-tta.md) | 2025-04-16 |
@@ -33,9 +35,9 @@
 | [CNN / 합성곱 연산 / 주요 모델](ai/cnn-models.md) | 2025-04-16 |
 | [AI / ML / DL 개요](ai/ai-ml-dl-overview.md) | 2025-04-16 |
 
-## [Algorithm](https://github.com/jajason02/til/tree/main/algorithm) &nbsp; <sub>9개</sub>
+## Algorithm &nbsp; <sub>9 notes</sub>
 
-| 제목 | 날짜 |
+| Title | Date |
 |:---|:---|
 | [Union-Find & 최소 신장 트리 (MST)](algorithm/union-find-and-mst.md) | 2025-04-16 |
 | [트리 순회 (Tree Traversal)](algorithm/tree-traversal.md) | 2025-04-16 |
@@ -47,9 +49,9 @@
 | [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2025-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2025-04-16 |
 
-## [Web (HTML/CSS)](https://github.com/jajason02/til/tree/main/web) &nbsp; <sub>5개</sub>
+## Web &nbsp; <sub>5 notes</sub>
 
-| 제목 | 날짜 |
+| Title | Date |
 |:---|:---|
 | [HTML 기초](web/html-basics.md) | 2025-04-16 |
 | [CSS Flexbox](web/css-flexbox.md) | 2025-04-16 |
@@ -59,7 +61,7 @@
 
 ---
 
-## 작성 규칙
+## Writing Guide
 
 - 파일명: `주제-요약.md` (예: `bfs-shortest-path.md`)
 - 날짜: 파일 상단 `> YYYY-MM-DD` 형식

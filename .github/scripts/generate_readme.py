@@ -3,6 +3,7 @@ TIL README 자동 생성 스크립트
 til/ 하위 폴더를 스캔해서 README.md 목록을 자동으로 업데이트합니다.
 """
 
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -12,12 +13,19 @@ CATEGORY_NAMES = {
     'python':    'Python',
     'django':    'Django',
     'ai':        'AI / ML',
-    'web':       'Web (HTML/CSS)',
+    'web':       'Web',
     'algorithm': 'Algorithm',
     'etc':       'ETC',
 }
 
 ROOT = Path(__file__).parent.parent.parent
+
+
+def to_anchor(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub(r'[^\w\s-]', '', text)
+    text = re.sub(r'\s+', '-', text)
+    return text
 
 
 def get_title(filepath: Path) -> str:
@@ -79,27 +87,35 @@ def render(data: dict) -> str:
     ]
     latest = max(all_dates) if all_dates else '-'
 
+    # Stats 표
     lines = [
         '# TIL — Today I Learned\n',
         '공부하면서 배운 것들을 간단히 기록합니다.  ',
         '코드 스니펫, 개념 정리, 막혔던 것과 해결 방법 위주로 남깁니다.\n',
         '---\n',
         '## Stats\n',
-        '| 항목 | 값 |',
+        '| | |',
         '|:---|:---|',
-        f'| 총 기록 수 | **{total}개** |',
-        f'| 카테고리 수 | **{len(data)}개** |',
-        f'| 최근 작성 | **{latest}** |',
+        f'| Total | **{total}** |',
+        f'| Categories | **{len(data)}** |',
+        f'| Last updated | **{latest}** |',
         '\n---\n',
     ]
 
+    # TOC — 한 줄로
+    toc_parts = []
     for cat, entries in data.items():
-        display  = CATEGORY_NAMES.get(cat, cat.title())
-        cat_url  = f'https://github.com/jajason02/til/tree/main/{cat}'
-        name_link = f'[{display}]({cat_url})'
+        display = CATEGORY_NAMES.get(cat, cat.title())
+        anchor  = to_anchor(display)
+        toc_parts.append(f'[{display}](#{anchor}) &nbsp;·&nbsp; {len(entries)}')
+    lines.append(' &nbsp;|&nbsp; '.join(toc_parts) + '\n')
 
-        lines.append(f'## {name_link} &nbsp; <sub>{len(entries)}개</sub>\n')
-        lines.append('| 제목 | 날짜 |')
+    # 카테고리별 섹션 (링크 없는 순수 헤더)
+    for cat, entries in data.items():
+        display = CATEGORY_NAMES.get(cat, cat.title())
+
+        lines.append(f'## {display} &nbsp; <sub>{len(entries)} notes</sub>\n')
+        lines.append('| Title | Date |')
         lines.append('|:---|:---|')
         for e in entries:
             date_str = e['date'] if e['date'] else '-'
@@ -108,7 +124,7 @@ def render(data: dict) -> str:
 
     lines += [
         '---\n',
-        '## 작성 규칙\n',
+        '## Writing Guide\n',
         '- 파일명: `주제-요약.md` (예: `bfs-shortest-path.md`)',
         '- 날짜: 파일 상단 `> YYYY-MM-DD` 형식',
         '- 구성: **배운 것** / **막혔던 것·해결** / **참고**',
@@ -127,4 +143,4 @@ if __name__ == '__main__':
     with open(ROOT / 'README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
 
-    print(f'README.md 업데이트 완료 — 총 {sum(len(v) for v in data.values())}개')
+    print(f'Done — {sum(len(v) for v in data.values())} notes')
