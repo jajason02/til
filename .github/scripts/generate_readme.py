@@ -12,7 +12,7 @@ IGNORE = {'.github', 'README.md', 'TEMPLATE.md', '.git'}
 CATEGORY_NAMES = {
     'python':    'Python',
     'django':    'Django',
-    'ai':        'AI / ML',
+    'ai':        'AI',
     'web':       'Web',
     'algorithm': 'Algorithm',
     'etc':       'ETC',
@@ -93,16 +93,11 @@ def render(data: dict) -> str:
         '공부하면서 배운 것들을 간단히 기록합니다.  ',
         '코드 스니펫, 개념 정리, 막혔던 것과 해결 방법 위주로 남깁니다.\n',
         '---\n',
-        '## Stats\n',
-        '| | |',
-        '|:---|:---|',
-        f'| Total | **{total}** |',
-        f'| Categories | **{len(data)}** |',
-        f'| Last updated | **{latest}** |',
-        '\n---\n',
+        f'Total **{total}** &nbsp;·&nbsp; Categories **{len(data)}** &nbsp;·&nbsp; Last updated **{latest}**\n',
+        '---\n',
     ]
 
-    # TOC — 한 줄로
+    # TOC — 한 줄로 (anchor는 헤더 이름과 정확히 일치)
     toc_parts = []
     for cat, entries in data.items():
         display = CATEGORY_NAMES.get(cat, cat.title())
@@ -110,11 +105,12 @@ def render(data: dict) -> str:
         toc_parts.append(f'[{display}](#{anchor}) &nbsp;·&nbsp; {len(entries)}')
     lines.append(' &nbsp;|&nbsp; '.join(toc_parts) + '\n')
 
-    # 카테고리별 섹션 (링크 없는 순수 헤더)
+    # 카테고리별 섹션 — 헤더는 이름만 (앵커 기준), note 수는 다음 줄
     for cat, entries in data.items():
         display = CATEGORY_NAMES.get(cat, cat.title())
 
-        lines.append(f'## {display} &nbsp; <sub>{len(entries)} notes</sub>\n')
+        lines.append(f'## {display}\n')
+        lines.append(f'<sub>{len(entries)} notes</sub>\n')
         lines.append('| Title | Date |')
         lines.append('|:---|:---|')
         for e in entries:

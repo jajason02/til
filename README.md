@@ -5,19 +5,15 @@
 
 ---
 
-## Stats
-
-| | |
-|:---|:---|
-| Total | **27** |
-| Categories | **3** |
-| Last updated | **2025-04-16** |
+Total **27** &nbsp;·&nbsp; Categories **3** &nbsp;·&nbsp; Last updated **2025-04-16**
 
 ---
 
-[AI / ML](#ai-ml) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 9 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 9 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
-## AI / ML &nbsp; <sub>13 notes</sub>
+## AI
+
+<sub>13 notes</sub>
 
 | Title | Date |
 |:---|:---|
@@ -35,7 +31,9 @@
 | [CNN / 합성곱 연산 / 주요 모델](ai/cnn-models.md) | 2025-04-16 |
 | [AI / ML / DL 개요](ai/ai-ml-dl-overview.md) | 2025-04-16 |
 
-## Algorithm &nbsp; <sub>9 notes</sub>
+## Algorithm
+
+<sub>9 notes</sub>
 
 | Title | Date |
 |:---|:---|
@@ -49,7 +47,9 @@
 | [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2025-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2025-04-16 |
 
-## Web &nbsp; <sub>5 notes</sub>
+## Web
+
+<sub>5 notes</sub>
 
 | Title | Date |
 |:---|:---|
