@@ -3,28 +3,49 @@
 공부하면서 배운 것들을 간단히 기록합니다.  
 코드 스니펫, 개념 정리, 막혔던 것과 해결 방법 위주로 남깁니다.
 
-> 총 **16개** 기록
+---
+
+## Stats
+
+| 항목 | 값 |
+|:---|:---|
+| 총 기록 수 | **27개** |
+| 카테고리 수 | **3개** |
+| 최근 작성 | **2025-04-16** |
 
 ---
 
-## 목차
+## 카테고리
 
-- [AI / ML (2)](#ai--ml)
-- [Algorithm (9)](#algorithm)
-- [Web (HTML/CSS) (5)](#web-htmlcss)
+`AI / ML` **13개**  
+`Algorithm` **9개**  
+`Web (HTML/CSS)` **5개**  
 
 ---
 
-## AI / ML
+<details>
+<summary>AI / ML &nbsp;·&nbsp; 13개</summary>
 
 | 제목 | 날짜 |
 |:---|:---|
+| [RNN / LSTM / Transformer / BERT](ai\rnn-lstm-transformer-bert.md) | 2025-04-16 |
+| [100% 정수 연산 양자화 / TTA / 적응적 센싱](ai\quantization-integer-tta.md) | 2025-04-16 |
+| [Post-Training / RLHF / RAG / Information Retrieval](ai\post-training-rlhf-rag.md) | 2025-04-16 |
+| [수 체계 / 부동소수점 / 모델 경량화 / Fine-tuning](ai\number-system-quantization.md) | 2025-04-16 |
+| [신경망 / 손실함수 / 경사하강법 / 로지스틱 회귀](ai\neural-network-gradient-descent.md) | 2025-04-16 |
+| [ML 기초 / 회귀 / 분류 평가지표](ai\ml-basics-regression-metrics.md) | 2025-04-16 |
+| [AI 계산 문제 모음](ai\math-problems.md) | 2025-04-16 |
+| [LLM 디코딩 / 평가 / RLHF / Hallucination](ai\llm-decoding-rlhf.md) | 2025-04-16 |
+| [LLM 평가 / AI Agent / Memory / Tool / Deep Research](ai\llm-agent-memory-tool.md) | 2025-04-16 |
 | [선형 회귀 (Linear Regression)](ai\linear-regression.md) | 2025-04-16 |
+| [파운데이션 모델 / CLIP / VLM / 이미지 생성](ai\foundation-model-clip-vlm.md) | 2025-04-16 |
+| [CNN / 합성곱 연산 / 주요 모델](ai\cnn-models.md) | 2025-04-16 |
 | [AI / ML / DL 개요](ai\ai-ml-dl-overview.md) | 2025-04-16 |
 
----
+</details>
 
-## Algorithm
+<details>
+<summary>Algorithm &nbsp;·&nbsp; 9개</summary>
 
 | 제목 | 날짜 |
 |:---|:---|
@@ -38,9 +59,10 @@
 | [BFS (너비 우선 탐색)](algorithm\bfs.md) | 2025-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm\backtracking-and-permutation.md) | 2025-04-16 |
 
----
+</details>
 
-## Web (HTML/CSS)
+<details>
+<summary>Web (HTML/CSS) &nbsp;·&nbsp; 5개</summary>
 
 | 제목 | 날짜 |
 |:---|:---|
@@ -50,6 +72,18 @@
 | [CSS 기초](web\css-basics.md) | 2025-04-16 |
 | [Bootstrap & 반응형 웹](web\bootstrap-and-responsive-web.md) | 2025-04-16 |
 
+</details>
+
+---
+
+## 작성 규칙
+
+- 파일명: `주제-요약.md` (예: `bfs-shortest-path.md`)
+- 날짜: 파일 상단 `> YYYY-MM-DD` 형식
+- 구성: **배운 것** / **막혔던 것·해결** / **참고**
+- 새 카테고리 폴더를 만들면 자동으로 README에 반영됨
+
 ---
 
 <p align="right"><em>"가독성 우선, 효율성 체크, 기록의 힘"</em></p>
+

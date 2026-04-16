@@ -3,14 +3,11 @@ TIL README 자동 생성 스크립트
 til/ 하위 폴더를 스캔해서 README.md 목록을 자동으로 업데이트합니다.
 """
 
-import os
 from pathlib import Path
 from datetime import datetime
 
-# 무시할 폴더/파일
-IGNORE = {'.github', 'README.md', '.git'}
+IGNORE = {'.github', 'README.md', 'TEMPLATE.md', '.git'}
 
-# 카테고리 표시 이름
 CATEGORY_NAMES = {
     'python':    'Python',
     'django':    'Django',
@@ -20,11 +17,10 @@ CATEGORY_NAMES = {
     'etc':       'ETC',
 }
 
-ROOT = Path(__file__).parent.parent.parent  # til/ 루트
+ROOT = Path(__file__).parent.parent.parent
 
 
 def get_title(filepath: Path) -> str:
-    """마크다운 파일 첫 번째 # 제목을 읽어옵니다. 없으면 파일명 사용."""
     try:
         with open(filepath, encoding='utf-8') as f:
             for line in f:
@@ -37,7 +33,6 @@ def get_title(filepath: Path) -> str:
 
 
 def get_date(filepath: Path) -> str:
-    """마크다운 파일에서 날짜(> 2025-xx-xx 형식)를 읽어옵니다. 없으면 빈 문자열."""
     try:
         with open(filepath, encoding='utf-8') as f:
             for line in f:
@@ -55,7 +50,6 @@ def get_date(filepath: Path) -> str:
 
 
 def collect() -> dict:
-    """카테고리별 TIL 파일 목록을 수집합니다."""
     data = {}
     for category in sorted(ROOT.iterdir()):
         if category.name in IGNORE or not category.is_dir():
@@ -74,47 +68,86 @@ def collect() -> dict:
     return data
 
 
+def make_collapsible(summary: str, content_lines: list) -> list:
+    return [
+        '<details>',
+        f'<summary>{summary}</summary>',
+        '',
+        *content_lines,
+        '',
+        '</details>',
+        '',
+    ]
+
+
 def render(data: dict) -> str:
     total = sum(len(v) for v in data.values())
+
+    all_dates = [
+        e['date']
+        for entries in data.values()
+        for e in entries
+        if e['date']
+    ]
+    latest = max(all_dates) if all_dates else '-'
 
     lines = [
         '# TIL — Today I Learned\n',
         '공부하면서 배운 것들을 간단히 기록합니다.  ',
         '코드 스니펫, 개념 정리, 막혔던 것과 해결 방법 위주로 남깁니다.\n',
-        f'> 총 **{total}개** 기록\n',
         '---\n',
-        '## 목차\n',
+        '## Stats\n',
+        '| 항목 | 값 |',
+        '|:---|:---|',
+        f'| 총 기록 수 | **{total}개** |',
+        f'| 카테고리 수 | **{len(data)}개** |',
+        f'| 최근 작성 | **{latest}** |',
+        '',
+        '---\n',
+        '## 카테고리\n',
     ]
 
-    # 목차
+    # 카테고리 요약 배지 (이모지 없음)
     for cat, entries in data.items():
         display = CATEGORY_NAMES.get(cat, cat.title())
-        anchor = display.lower().replace(' ', '-').replace('/', '').replace('(', '').replace(')', '')
-        lines.append(f'- [{display} ({len(entries)})](#{anchor})')
+        lines.append(f'`{display}` **{len(entries)}개**  ')
+    lines.append('\n---\n')
 
-    lines.append('')
-
-    # 본문
+    # 카테고리별 접이식 목록
     for cat, entries in data.items():
         display = CATEGORY_NAMES.get(cat, cat.title())
-        lines.append(f'---\n\n## {display}\n')
-        lines.append('| 제목 | 날짜 |')
-        lines.append('|:---|:---|')
-        for e in entries:
-            date_str = e['date'] if e['date'] else '-'
-            lines.append(f"| [{e['title']}]({e['path']}) | {date_str} |")
-        lines.append('')
 
-    lines.append('---\n')
-    lines.append('<p align="right"><em>"가독성 우선, 효율성 체크, 기록의 힘"</em></p>')
+        table_lines = [
+            '| 제목 | 날짜 |',
+            '|:---|:---|',
+            *[
+                f'| [{e["title"]}]({e["path"]}) | {e["date"] if e["date"] else "-"} |'
+                for e in entries
+            ],
+        ]
+
+        summary = f'{display} &nbsp;·&nbsp; {len(entries)}개'
+        lines.extend(make_collapsible(summary, table_lines))
+
+    lines += [
+        '---\n',
+        '## 작성 규칙\n',
+        '- 파일명: `주제-요약.md` (예: `bfs-shortest-path.md`)',
+        '- 날짜: 파일 상단 `> YYYY-MM-DD` 형식',
+        '- 구성: **배운 것** / **막혔던 것·해결** / **참고**',
+        '- 새 카테고리 폴더를 만들면 자동으로 README에 반영됨\n',
+        '---\n',
+        '<p align="right"><em>"가독성 우선, 효율성 체크, 기록의 힘"</em></p>\n',
+    ]
 
     return '\n'.join(lines) + '\n'
 
 
 if __name__ == '__main__':
-    data = collect()
+    data   = collect()
     readme = render(data)
-    output_path = ROOT / 'README.md'
-    with open(output_path, 'w', encoding='utf-8') as f:
+
+    with open(ROOT / 'README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
-    print(f"README.md 업데이트 완료 — 총 {sum(len(v) for v in data.values())}개")
+
+    print(f'README.md 업데이트 완료 — 총 {sum(len(v) for v in data.values())}개')
