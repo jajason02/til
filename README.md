@@ -3,19 +3,19 @@
 공부하면서 배운 것들을 간단히 기록합니다.  
 코드 스니펫, 개념 정리, 막혔던 것과 해결 방법 위주로 남깁니다.
 
-> 총 **27개** 기록
+---
+
+## Stats
+
+| 항목 | 값 |
+|:---|:---|
+| 총 기록 수 | **27개** |
+| 카테고리 수 | **3개** |
+| 최근 작성 | **2025-04-16** |
 
 ---
 
-## 목차
-
-- [AI / ML (13)](#ai--ml)
-- [Algorithm (9)](#algorithm)
-- [Web (HTML/CSS) (5)](#web-htmlcss)
-
----
-
-## AI / ML
+## [AI / ML](https://github.com/jajason02/til/tree/main/ai) &nbsp; <sub>13개</sub>
 
 | 제목 | 날짜 |
 |:---|:---|
@@ -33,9 +33,7 @@
 | [CNN / 합성곱 연산 / 주요 모델](ai/cnn-models.md) | 2025-04-16 |
 | [AI / ML / DL 개요](ai/ai-ml-dl-overview.md) | 2025-04-16 |
 
----
-
-## Algorithm
+## [Algorithm](https://github.com/jajason02/til/tree/main/algorithm) &nbsp; <sub>9개</sub>
 
 | 제목 | 날짜 |
 |:---|:---|
@@ -49,9 +47,7 @@
 | [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2025-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2025-04-16 |
 
----
-
-## Web (HTML/CSS)
+## [Web (HTML/CSS)](https://github.com/jajason02/til/tree/main/web) &nbsp; <sub>5개</sub>
 
 | 제목 | 날짜 |
 |:---|:---|
@@ -63,4 +59,14 @@
 
 ---
 
+## 작성 규칙
+
+- 파일명: `주제-요약.md` (예: `bfs-shortest-path.md`)
+- 날짜: 파일 상단 `> YYYY-MM-DD` 형식
+- 구성: **배운 것** / **막혔던 것·해결** / **참고**
+- 새 카테고리 폴더를 만들면 자동으로 README에 반영됨
+
+---
+
 <p align="right"><em>"가독성 우선, 효율성 체크, 기록의 힘"</em></p>
+
