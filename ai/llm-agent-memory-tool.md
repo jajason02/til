@@ -1,6 +1,6 @@
 # LLM 평가 / AI Agent / Memory / Tool / Deep Research
 
-> 2025-04-16
+> 2026-03
 
 ## 배운 것
 

@@ -1,6 +1,6 @@
 # Post-Training / RLHF / RAG / Information Retrieval
 
-> 2025-04-16
+> 2026-03
 
 ## 배운 것
 

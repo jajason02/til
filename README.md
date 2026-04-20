@@ -5,11 +5,11 @@
 
 ---
 
-Total **27** &nbsp;·&nbsp; Categories **3** &nbsp;·&nbsp; Last updated **2025-04-16**
+Total **30** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-04-20**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 9 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 11 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -17,35 +17,45 @@ Total **27** &nbsp;·&nbsp; Categories **3** &nbsp;·&nbsp; Last updated **2025-
 
 | Title | Date |
 |:---|:---|
-| [RNN / LSTM / Transformer / BERT](ai/rnn-lstm-transformer-bert.md) | 2025-04-16 |
-| [100% 정수 연산 양자화 / TTA / 적응적 센싱](ai/quantization-integer-tta.md) | 2025-04-16 |
-| [Post-Training / RLHF / RAG / Information Retrieval](ai/post-training-rlhf-rag.md) | 2025-04-16 |
-| [수 체계 / 부동소수점 / 모델 경량화 / Fine-tuning](ai/number-system-quantization.md) | 2025-04-16 |
-| [신경망 / 손실함수 / 경사하강법 / 로지스틱 회귀](ai/neural-network-gradient-descent.md) | 2025-04-16 |
-| [ML 기초 / 회귀 / 분류 평가지표](ai/ml-basics-regression-metrics.md) | 2025-04-16 |
-| [AI 계산 문제 모음](ai/math-problems.md) | 2025-04-16 |
-| [LLM 디코딩 / 평가 / RLHF / Hallucination](ai/llm-decoding-rlhf.md) | 2025-04-16 |
-| [LLM 평가 / AI Agent / Memory / Tool / Deep Research](ai/llm-agent-memory-tool.md) | 2025-04-16 |
-| [선형 회귀 (Linear Regression)](ai/linear-regression.md) | 2025-04-16 |
-| [파운데이션 모델 / CLIP / VLM / 이미지 생성](ai/foundation-model-clip-vlm.md) | 2025-04-16 |
-| [CNN / 합성곱 연산 / 주요 모델](ai/cnn-models.md) | 2025-04-16 |
-| [AI / ML / DL 개요](ai/ai-ml-dl-overview.md) | 2025-04-16 |
+| [RNN / LSTM / Transformer / BERT](ai/rnn-lstm-transformer-bert.md) | - |
+| [100% 정수 연산 양자화 / TTA / 적응적 센싱](ai/quantization-integer-tta.md) | - |
+| [Post-Training / RLHF / RAG / Information Retrieval](ai/post-training-rlhf-rag.md) | - |
+| [수 체계 / 부동소수점 / 모델 경량화 / Fine-tuning](ai/number-system-quantization.md) | - |
+| [신경망 / 손실함수 / 경사하강법 / 로지스틱 회귀](ai/neural-network-gradient-descent.md) | - |
+| [ML 기초 / 회귀 / 분류 평가지표](ai/ml-basics-regression-metrics.md) | - |
+| [AI 계산 문제 모음](ai/math-problems.md) | - |
+| [LLM 디코딩 / 평가 / RLHF / Hallucination](ai/llm-decoding-rlhf.md) | - |
+| [LLM 평가 / AI Agent / Memory / Tool / Deep Research](ai/llm-agent-memory-tool.md) | - |
+| [선형 회귀 (Linear Regression)](ai/linear-regression.md) | - |
+| [파운데이션 모델 / CLIP / VLM / 이미지 생성](ai/foundation-model-clip-vlm.md) | - |
+| [CNN / 합성곱 연산 / 주요 모델](ai/cnn-models.md) | - |
+| [AI / ML / DL 개요](ai/ai-ml-dl-overview.md) | - |
 
 ## Algorithm
 
-<sub>9 notes</sub>
+<sub>11 notes</sub>
 
 | Title | Date |
 |:---|:---|
-| [Union-Find & 최소 신장 트리 (MST)](algorithm/union-find-and-mst.md) | 2025-04-16 |
-| [트리 순회 (Tree Traversal)](algorithm/tree-traversal.md) | 2025-04-16 |
-| [스택 응용 — 후위표기법 (Postfix)](algorithm/stack-postfix.md) | 2025-04-16 |
-| [Queue — 선형 큐 & 원형 큐](algorithm/queue-linear-and-circular.md) | 2025-04-16 |
-| [병합 정렬 (Merge Sort)](algorithm/merge-sort.md) | 2025-04-16 |
-| [힙 (Heap)](algorithm/heap.md) | 2025-04-16 |
-| [이진 탐색 트리 (BST)](algorithm/binary-search-tree.md) | 2025-04-16 |
-| [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2025-04-16 |
-| [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2025-04-16 |
+| [Union-Find & 최소 신장 트리 (MST)](algorithm/union-find-and-mst.md) | 2026-04-16 |
+| [트리 순회 (Tree Traversal)](algorithm/tree-traversal.md) | 2026-04-16 |
+| [시간복잡도 계산 in DFS, List(동적할당)](algorithm/time-complexity-in-dfs-list.md) | 2026-04-19 |
+| [스택 응용 — 후위표기법 (Postfix)](algorithm/stack-postfix.md) | 2026-04-16 |
+| [Queue — 선형 큐 & 원형 큐](algorithm/queue-linear-and-circular.md) | 2026-04-16 |
+| [병합 정렬 (Merge Sort)](algorithm/merge-sort.md) | 2026-04-16 |
+| [힙 (Heap)](algorithm/heap.md) | 2026-04-16 |
+| [비트마스킹 in dfs](algorithm/bit-masking.md) | 2026-04-18 |
+| [이진 탐색 트리 (BST)](algorithm/binary-search-tree.md) | 2026-04-16 |
+| [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2026-04-16 |
+| [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2026-04-16 |
+
+## Django
+
+<sub>1 notes</sub>
+
+| Title | Date |
+|:---|:---|
+| [장고 프로젝트, 앱의 기본 구조, 실행 흐름](django/django-project-basic.md) | 2026-04-20 |
 
 ## Web
 
@@ -53,11 +63,11 @@ Total **27** &nbsp;·&nbsp; Categories **3** &nbsp;·&nbsp; Last updated **2025-
 
 | Title | Date |
 |:---|:---|
-| [HTML 기초](web/html-basics.md) | 2025-04-16 |
-| [CSS Flexbox](web/css-flexbox.md) | 2025-04-16 |
-| [CSS Box Model & Position](web/css-box-model-and-position.md) | 2025-04-16 |
-| [CSS 기초](web/css-basics.md) | 2025-04-16 |
-| [Bootstrap & 반응형 웹](web/bootstrap-and-responsive-web.md) | 2025-04-16 |
+| [HTML 기초](web/html-basics.md) | - |
+| [CSS Flexbox](web/css-flexbox.md) | - |
+| [CSS Box Model & Position](web/css-box-model-and-position.md) | - |
+| [CSS 기초](web/css-basics.md) | - |
+| [Bootstrap & 반응형 웹](web/bootstrap-and-responsive-web.md) | - |
 
 ---
 

@@ -1,6 +1,6 @@
 # 백트래킹 & 순열 (Backtracking & Permutation)
 
-> 2025-04-16
+> 2026-04-16
 
 ## 배운 것
 

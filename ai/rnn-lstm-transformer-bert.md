@@ -1,6 +1,6 @@
 # RNN / LSTM / Transformer / BERT
 
-> 2025-04-16
+> 2026-03
 
 ## 배운 것
 
