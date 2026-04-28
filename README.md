@@ -5,11 +5,11 @@
 
 ---
 
-Total **30** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-04-20**
+Total **32** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-04-28**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 11 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -33,7 +33,7 @@ Total **30** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-
 
 ## Algorithm
 
-<sub>11 notes</sub>
+<sub>13 notes</sub>
 
 | Title | Date |
 |:---|:---|
@@ -43,8 +43,10 @@ Total **30** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-
 | [스택 응용 — 후위표기법 (Postfix)](algorithm/stack-postfix.md) | 2026-04-16 |
 | [Queue — 선형 큐 & 원형 큐](algorithm/queue-linear-and-circular.md) | 2026-04-16 |
 | [병합 정렬 (Merge Sort)](algorithm/merge-sort.md) | 2026-04-16 |
+| [연결리스트 구현 (Node Pool 방식)](algorithm/linked-list.md) | 2026-04-28 |
 | [힙 (Heap)](algorithm/heap.md) | 2026-04-16 |
 | [비트마스킹 in dfs](algorithm/bit-masking.md) | 2026-04-18 |
+| [비트마스킹으로 상태 추적하기](algorithm/bit-masking-example.md) | 2026-04-28 |
 | [이진 탐색 트리 (BST)](algorithm/binary-search-tree.md) | 2026-04-16 |
 | [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2026-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2026-04-16 |
