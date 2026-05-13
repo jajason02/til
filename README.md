@@ -5,11 +5,11 @@
 
 ---
 
-Total **32** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-04-28**
+Total **33** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-05-13**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -58,6 +58,14 @@ Total **32** &nbsp;·&nbsp; Categories **4** &nbsp;·&nbsp; Last updated **2026-
 | Title | Date |
 |:---|:---|
 | [장고 프로젝트, 앱의 기본 구조, 실행 흐름](django/django-project-basic.md) | 2026-04-20 |
+
+## Js
+
+<sub>1 notes</sub>
+
+| Title | Date |
+|:---|:---|
+| [DOM](js/DOM.md) | 2026-05-13 |
 
 ## Web
 
