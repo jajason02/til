@@ -5,11 +5,11 @@
 
 ---
 
-Total **33** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-05-13**
+Total **34** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-05-14**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -61,10 +61,11 @@ Total **33** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-
 
 ## Js
 
-<sub>1 notes</sub>
+<sub>2 notes</sub>
 
 | Title | Date |
 |:---|:---|
+| [자바 기본 문법](js/js_basic.md) | 2026-05-14 |
 | [DOM](js/DOM.md) | 2026-05-13 |
 
 ## Web
