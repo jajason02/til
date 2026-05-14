@@ -15,6 +15,13 @@
 for ([key, value] of Object.entries(obj)) // 오브젝트는 non-iterable이어서 for ... of 안됨. entries로 iterable로 바꿔줌
 if (Array.isArray(value)) // value 변수가 리스트인지 확인
 
+//단축 평가
+1 && 0  // 0
+0 && 1  // 0
+4 && 7  // 7
+1 || 0  // 1
+0 || 1  // 1
+4 || 7  // 4 
 
 ```
 
