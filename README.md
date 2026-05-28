@@ -5,11 +5,11 @@
 
 ---
 
-Total **35** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-05-18**
+Total **36** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-05-27**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -68,6 +68,14 @@ Total **35** &nbsp;·&nbsp; Categories **5** &nbsp;·&nbsp; Last updated **2026-
 | [JS 메서드 정리](js/js_methods.md) | 2026-05-18 |
 | [자바 기본 문법](js/js_basic.md) | 2026-05-14 |
 | [DOM](js/DOM.md) | 2026-05-13 |
+
+## Vue
+
+<sub>1 notes</sub>
+
+| Title | Date |
+|:---|:---|
+| [Vue 디렉티브 정리](vue/vue_directives.md) | 2026-05-27 |
 
 ## Web
 
