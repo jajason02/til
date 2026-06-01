@@ -5,11 +5,11 @@
 
 ---
 
-Total **36** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-05-27**
+Total **37** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-06-01**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -71,10 +71,11 @@ Total **36** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-
 
 ## Vue
 
-<sub>1 notes</sub>
+<sub>2 notes</sub>
 
 | Title | Date |
 |:---|:---|
+| [Vue SFC, 프로젝트 생성](vue/vue_sfc.md) | 2026-06-01 |
 | [Vue 디렉티브 정리](vue/vue_directives.md) | 2026-05-27 |
 
 ## Web
