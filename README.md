@@ -5,11 +5,11 @@
 
 ---
 
-Total **37** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-06-01**
+Total **38** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-06-02**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -71,12 +71,13 @@ Total **37** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-
 
 ## Vue
 
-<sub>2 notes</sub>
+<sub>3 notes</sub>
 
 | Title | Date |
 |:---|:---|
 | [Vue SFC, 프로젝트 생성](vue/vue_sfc.md) | 2026-06-01 |
 | [Vue 디렉티브 정리](vue/vue_directives.md) | 2026-05-27 |
+| [Props & Emit — 컴포넌트 간 데이터 흐름](vue/vue_component_state_flow.md) | 2026-06-02 |
 
 ## Web
 
