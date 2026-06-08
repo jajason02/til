@@ -5,11 +5,11 @@
 
 ---
 
-Total **39** &nbsp;·&nbsp; Categories **7** &nbsp;·&nbsp; Last updated **2026-06-06**
+Total **40** &nbsp;·&nbsp; Categories **8** &nbsp;·&nbsp; Last updated **2026-06-08**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Spring](#spring) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -76,6 +76,14 @@ Total **39** &nbsp;·&nbsp; Categories **7** &nbsp;·&nbsp; Last updated **2026-
 | [JS 메서드 정리](js/js_methods.md) | 2026-05-18 |
 | [자바 기본 문법](js/js_basic.md) | 2026-05-14 |
 | [DOM](js/DOM.md) | 2026-05-13 |
+
+## Spring
+
+<sub>1 notes</sub>
+
+| Title | Date |
+|:---|:---|
+| [Spring Boot Todo API - 첫 번째 CRUD](spring/springboot_todo_API_basic.md) | 2026-06-08 |
 
 ## Vue
 
