@@ -5,11 +5,11 @@
 
 ---
 
-Total **38** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-06-02**
+Total **39** &nbsp;·&nbsp; Categories **7** &nbsp;·&nbsp; Last updated **2026-06-06**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -50,6 +50,14 @@ Total **38** &nbsp;·&nbsp; Categories **6** &nbsp;·&nbsp; Last updated **2026-
 | [이진 탐색 트리 (BST)](algorithm/binary-search-tree.md) | 2026-04-16 |
 | [BFS (너비 우선 탐색)](algorithm/bfs.md) | 2026-04-16 |
 | [백트래킹 & 순열 (Backtracking & Permutation)](algorithm/backtracking-and-permutation.md) | 2026-04-16 |
+
+## Cs
+
+<sub>1 notes</sub>
+
+| Title | Date |
+|:---|:---|
+| [서비스 속도 개선](cs/서비스_속도_개선.md) | 2026-06-06 |
 
 ## Django
 
