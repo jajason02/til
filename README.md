@@ -5,11 +5,11 @@
 
 ---
 
-Total **40** &nbsp;·&nbsp; Categories **8** &nbsp;·&nbsp; Last updated **2026-06-08**
+Total **41** &nbsp;·&nbsp; Categories **8** &nbsp;·&nbsp; Last updated **2026-06-23**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Spring](#spring) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Spring](#spring) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -53,11 +53,12 @@ Total **40** &nbsp;·&nbsp; Categories **8** &nbsp;·&nbsp; Last updated **2026-
 
 ## Cs
 
-<sub>1 notes</sub>
+<sub>2 notes</sub>
 
 | Title | Date |
 |:---|:---|
 | [서비스 속도 개선](cs/서비스_속도_개선.md) | 2026-06-06 |
+| [RESTful vs RPC](cs/til_rpc_vs_rest.md) | 2026-06-23 |
 
 ## Django
 
