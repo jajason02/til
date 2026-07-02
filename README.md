@@ -5,11 +5,11 @@
 
 ---
 
-Total **42** &nbsp;·&nbsp; Categories **9** &nbsp;·&nbsp; Last updated **2026-06-26**
+Total **43** &nbsp;·&nbsp; Categories **9** &nbsp;·&nbsp; Last updated **2026-07-03**
 
 ---
 
-[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Dev](#dev) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Spring](#spring) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
+[AI](#ai) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Algorithm](#algorithm) &nbsp;·&nbsp; 13 &nbsp;|&nbsp; [Cs](#cs) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Dev](#dev) &nbsp;·&nbsp; 2 &nbsp;|&nbsp; [Django](#django) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Js](#js) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Spring](#spring) &nbsp;·&nbsp; 1 &nbsp;|&nbsp; [Vue](#vue) &nbsp;·&nbsp; 3 &nbsp;|&nbsp; [Web](#web) &nbsp;·&nbsp; 5
 
 ## AI
 
@@ -62,11 +62,12 @@ Total **42** &nbsp;·&nbsp; Categories **9** &nbsp;·&nbsp; Last updated **2026-
 
 ## Dev
 
-<sub>1 notes</sub>
+<sub>2 notes</sub>
 
 | Title | Date |
 |:---|:---|
 | [Git Flow & 형상관리](dev/git_flow.md) | 2026-06-26 |
+| [백엔드 인프라 개념 정리 (프록시 / 캐시 / GC / 스트림 / 압축 / CDN)](dev/backend_infra.md) | 2026-07-03 |
 
 ## Django
 
